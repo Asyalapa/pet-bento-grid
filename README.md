@@ -7,7 +7,7 @@
 ## 📌 О проекте
 
 - **📝 Задание:** [Bento Grid - Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)  
-- **🎨 Дизайн:** [Макет Desktop](design/desktop-design.jpg) | [Макет Mobile](design/mobile-design.jpg)
+- **🎨 Дизайн:** [Макет Desktop](./design/desktop-design.jpg) | [Макет Mobile](./design/mobile-design.jpg)
 - **🚀 Деплой:** *(в процессе)*  
 - **📂 Репозиторий:** [GitHub](https://github.com/Asyalapa/pet-bento-grid)
 - **📅 Проект выполняется:** 2025 год, **Asyalapa**  
