@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'DMSans';
+  src: 
+    url('./fonts/DMSans-9ptRegular.woff2') format('woff2'),
+    url('./fonts/DMSans-9ptRegular.woff') format('woff'),
+    url('./fonts/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: 
+    url('./fonts/DMSans-9ptItalic.woff2') format('woff2'),
+    url('./fonts/DMSans-9ptItalic.woff') format('woff'),
+    url('./fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: 
+    url('./fonts/static/DMSans-Medium.woff2') format('woff2'),
+    url('./fonts/static/DMSans-Medium.woff') format('woff'),
+    url('./fonts/static/DMSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: 
+    url('./fonts/static/DMSans-MediumItalic.woff2') format('woff2'),
+    url('./fonts/static/DMSans-MediumItalic.woff') format('woff'),
+    url('./fonts/static/DMSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: 
+    url('./fonts/static/DMSans-Regular.woff2') format('woff2'),
+    url('./fonts/static/DMSans-Regular.woff') format('woff'),
+    url('./fonts/static/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-size: 10px;
+  font-family: "DMSans", sans-serif;
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 7%);
+  --font-size-paragraph: 1.8rem;
+  --xs-width: 320px;
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
+}
+.container {
+  padding: 3.2rem 1.6rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.section {
+  border-radius: 1rem;
+}
+.first-section {
+  padding: 5rem;
+  background-color: var(--purple-500);
+}
+
+.footer { font-size: 11px; text-align: center; }
+.footer a { color: hsl(228, 45%, 44%); }
